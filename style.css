@@ -102,6 +102,7 @@ button:hover{
     background-color: var(--fondo-color);
     padding: 30px ;
     margin-top: -500px;
+    border: 1px solid var(--fondo-perfil);
 }
 
 .navbar ul {
