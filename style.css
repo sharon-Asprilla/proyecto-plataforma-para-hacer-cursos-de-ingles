@@ -15,7 +15,7 @@
 
 
 body{
-    background-color: var(--fondo-perfil);
+    background-color: var(--fondo-color);
     display: flex;
     justify-content:center;
     align-items: center;
@@ -29,11 +29,11 @@ form{
     width: 500px;
     height: 400px;
     padding: -400px;
-    background-color: var(--fondo-color);
+    background-color: white;
     border-radius: 40px ;
     box-shadow: 0 0 30px rgba(19, 18, 18, 0.1);
     align-items: center ;
-    color: white;
+    color: black;
 }
 
 label{
@@ -43,16 +43,23 @@ label{
 input{
     padding: 20px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0a0a0a;
     border-radius: 10px;
  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 button{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
     cursor: pointer;
     background-color: var(--fondo-color);
     margin-top: 20px;
@@ -63,6 +70,7 @@ button{
 button:hover{
     background-color: white;
     color: black;
+    cursor: pointer ;
     
 }
 
@@ -94,6 +102,7 @@ button:hover{
      
 }
 
+
 .botones-todos{
     display: flex;
     justify-content: center;
@@ -122,7 +131,6 @@ button:hover{
 
 .navbar li a {
     text-decoration: none;
-    color: white;
     font-size: 20px;
     cursor: pointer;
 }
